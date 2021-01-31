@@ -41,7 +41,7 @@ const movePiece = (startStack, endStack) => {
 // Before you move, should you check if the move it actually allowed? Should 3 be able to be stacked on 2
 const isLegal = (start, end) => {
   // Your code here
-  if (stacks[end].length === 0 || stacks[start][stacks[start].length - 1] < stacks[end][stacks[end].length -1] {
+  if (stacks[end].length === 0 || stacks[start][stacks[start].length - 1] < stacks[end][stacks[end].length -1]) {
     return true;
   } else {
     console.log("Please try again");
